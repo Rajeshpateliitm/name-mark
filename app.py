@@ -26,4 +26,4 @@ async def get_marks(name: list[str] = []):
             results.append(int(row['marks'].values[0]))
         else:
             results.append(None)
-    return {"marks": results}
+    return {"marks": "test"}
